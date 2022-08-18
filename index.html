@@ -6,12 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matloob | Portfolio</title>
 
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./images/favicon.png">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./src/style.css">
 </head>
-<body>
-    <h2>Matloob</h2>
+<body class="continer-fluid">
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+          <a href="index.html" class="logo me-auto"><img src="./images/logo.png" width="200px" height="200px" alt="" class="img-fluid"></a>
+
+          <nav class="navbar ms-4" id="nav">
+            <ul>
+                <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+                <li><a class="nav-link scrollto" href="#about">About</a></li>
+                <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+                <li><a class="nav-link scrollto" href="#serices">Services</a></li>
+                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                <li><a class="download" href="./public/assets/Md-Matloob-Alam_CV.pdf" download="Md-Matloob-Alam_CV">Download CV</a></li>
+                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav>
+        </div>
+    </header>
+    <main>
+    <section id="home">
+       <div class="container d-flex">
+        <div class="home">
+          <h2>Hello,</h2>
+          <h2>I am Md Matloob Alam</h2>
+          <h2>Web Developer</h2>
+        </div>
+        <div><img class="img-1" src="./images/img-1 (1).png" alt=""></div>
+       </div>
+    </section>
+     <!-- end home -->
+
+     <section class="about mt-1" id="about">
+      <div class="container-1">
+          <h2>About Me</h2>
+        
+         <div class="img-p d-flex mt-lg-5">
+          <div>
+            <img class="about-img" src="./images/dev-pic.webp" alt="">
+          </div>
+          <div class="about-p">
+          <p>“My Name is Md Matloob Alam  I have Completed Web Development Course from hydrabad India, Now I am Pursuing in B.Sc with Zoology Honours, (Course Copmlete year Expected in 2021).</p>
+          <p>In Technology My Skills are HTML, CSS, JavaScript, MongoDB, JSON, jQuery, Bootstrap, Github, Node Js And Express Js.”</p>
+        </div>
+         </div>
+        </div>
+     </section>
+  </main>
+
 </body>
 </html>

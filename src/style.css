@@ -1,6 +1,136 @@
-body{
-    background: #444444;
+@media screen and (orientation : landscape) {
+    
+
+#header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 15px 0;
+  }
+  
+  #header.header-scrolled,
+  #header.header-inner-pages {
+    background: rgba(40, 58, 90, 0.9);
+  }
+  
+  #header .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  #header .logo a {
+    color: #fff;
+  }
+  
+  #header .logo img {
+    max-height: 60px;
+  }
+  header#header.fixed-top{
+    background: green;
+    opacity: 0.8;
+  }
+  .navbar {
+    padding: 0;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+  
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    /* color: #fff; */
+    color: white;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+  
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+  
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    color: #47b2e4;
+  }
+  .navbar .getstarted,
+.navbar .getstarted:focus {
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 50px;
+  /* color: #fff; */
+  color: white;
+  font-size: 17px;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
 }
-h2{
-    color: red;
+
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
+  color: #fff;
+  background: #31a9e1;
 }
+#home{
+  background-color: #31a9e1;
+  margin-top: 90px;
+  padding: 7%;
+  
+}
+.home{
+  margin-top: 10%;
+  margin-left: 2%;
+}
+.container-1 h2{
+  text-align: center;
+}
+.img-1{
+  width: 70%;
+  
+}
+.about-img{
+  width: 50%;
+  height: 70%;
+  margin-top: 10%;
+  margin-left: 25%;
+
+}
+.about-p{
+  columns: inherit;
+  line-height: 10%px;
+  margin-top: 5%;
+}
+.about-p p{
+  text-align:justify;
+  width: 60%;
+  margin-left: 20%;
+  font-weight: bold;
+}
+#about{
+  background-image: url(../images/pic.jpg);
+}
+
+}
+  
