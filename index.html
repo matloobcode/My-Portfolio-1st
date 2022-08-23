@@ -1,68 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matloob | Portfolio</title>
+	<title>Matloob | Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-  <!-- Favicon -->
-  <link rel="icon" href="./images/favicon.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="./src/style.css">
 </head>
-<body class="continer-fluid">
-    <header id="header" class="fixed-top">
-        <div class="container d-flex align-items-center">
+<body>
+	<!----matloob Section start---->
 
-          <a href="index.html" class="logo me-auto"><img src="./images/logo.png" width="200px" height="200px" alt="" class="img-fluid"></a>
+	<div class="matloob">
+		<nav>
+			<h2 class="logo"><a href="./index.html">Portfo<span>lio</span></a></h2>
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Works</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="./public/assets/Md-Matloob-Alam_CV.pdf" download="Md Matloob Alam CV">Download CV</a></li>
+			</ul>
+		</nav>
 
-          <nav class="navbar ms-4" id="nav">
-            <ul>
-                <li><a class="nav-link scrollto active" href="#home">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">About</a></li>
-                <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-link scrollto" href="#serices">Services</a></li>
-                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                <li><a class="download" href="./public/assets/Md-Matloob-Alam_CV.pdf" download="Md-Matloob-Alam_CV">Download CV</a></li>
-                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav>
-        </div>
-    </header>
-    <main>
-    <section id="home">
-       <div class="container d-flex">
-        <div class="home">
-          <h2>Hello,</h2>
-          <h2>I am Md Matloob Alam</h2>
-          <h2>Web Developer</h2>
-        </div>
-        <div><img class="img-1" src="./images/img-1 (1).png" alt=""></div>
-       </div>
-    </section>
-     <!-- end home -->
+		<div id="main-p">
+			<h4>Hello, my name is</h4>
+			<h1>Md Matloob <span>Alam</span></h1>
+			<h3>I'am a Web Developer.</h3>
+		</div>
+	</div>
 
-     <section id="about">
-      <h2>About Me</h2>
-      <div class="container-2 d-flex">
-        <div class="about">
-          <img src="./images/dev-pic.webp" alt="">
-        </div>
-        <div class="about-p">
-          <p>“My Name is Md Matloob Alam  I have Completed Web Development Course from hydrabad India, Now I am Pursuing in B.Sc with Zoology Honours, (Course Copmlete year Expected in 2021).</p>
-          <p>In Technology My Skills are HTML, CSS, JavaScript, MongoDB, JSON, jQuery, Bootstrap, GitHub, Node Js And Express Js.”</p>
-        </div>
-      </div>
-     </section>
-  </main>
+	<!----About section start---->
+	<section id="about">
+		<div class="main">
+			<img src="img/main-img.png">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>“My Name is Md Matloob Alam I have Completed Web Development Course from hydrabad India, Now I am Pursuing
+					in B.Sc with Zoology Honours, (Course Copmlete year Expected in 2021).</p>
+				  <p>In Technology My Skills are HTML, CSS, JavaScript, MongoDB, JSON, jQuery, Bootstrap, GitHub, Node Js And
+					Express Js.”</p>
+			</div>
+		</div>
+	</section>
 
+	<!-----service section start----------->
+	<div id="services">
+		<div class="title">
+			<h2>My Works</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-hotel"></i>
+				<h5>Hotel Booking</h5>
+				<div class="pra">
+					<p>It is Ctreated with Bootstrap according to hotel facilities, Also it calculate total at submit time. It is fully Responsive for all devices.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="./public/Hotel Registration Form.html">Visit</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="bi bi-cart-fill"></i>
+				<h5>Shopping Site</h5>
+				<div class="pra">
+					<p>This site has been created with live API server And Categorywise. This website is Responsive according to devices and SEO friendly.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="./public/API Shopping Example.html">Visit</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="bi bi-calculator"></i>
+				<h5>BMI Cal</h5>
+				<div class="pra">
+					<p>This is BMI Calculator, It is cteated with Bootstrap and JavaScript. It calculate according to Weight and Height of Body.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="./public/BMI Calculator.html">Visit</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------Contact Me------>
+	<div id="contact">
+		<p>Let Me Get You A Beautiful Website.</p>
+		<a class="button-two" href="#">Hire Me</a>
+	</div>
+
+	<!------footer start--------->
+	<footer>
+		<p>Md Matloob Alam</p>
+		<p>I have knowledge in HTML, CSS, JavaScript, Bootstrap, MongoDB, NodeJs, Express.</p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-linkedin"></i></a>
+			<a href="#"><i class="fab fa-github"></i></a>
+		</div>
+		<div class="mail-p">
+			<div>
+				<a href="mailto:matloobreigns@gmail.com"><i class="fab fa-email"></i>matloobreigns@gmail.com</a>
+			</div>
+			<div>
+				<a href="tel:+917903287161">+917903287161</a>
+			</div>
+		</div>
+		<p class="end">&copy; Copyrighy By Md Matloob Alam</p>
+	</footer>
 </body>
 </html>
