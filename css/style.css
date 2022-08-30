@@ -10,6 +10,15 @@ html {
  ::-webkit-scrollbar-thumb{
 	background: greenyellow;
  }
+ html{
+	margin: 0;
+	padding: 0;
+ }
+ body{
+	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: 12fr;
+ }
 
 *{
 	padding: 0;
@@ -24,6 +33,7 @@ html {
 	background-image: url(../img/background.jpg);
 	background-size: cover;
 	background-position: center;
+	flex-wrap: wrap;
 }
 nav{
 	display: flex;
@@ -34,6 +44,7 @@ nav{
 	padding-right: 8%;
 	position: sticky;
 	position: fixed;
+	flex-wrap: wrap;
 	
 }
 nav ul li{
@@ -324,13 +335,9 @@ aside a{
 	color: yellowgreen;
 }
 
-@media screen and (orientation: portrait) {
-	
-	#main-p{
-		/* position: absolute;
-		top: 35%;
-		left:8%; */
-		/* margin-bottom: 200%; */
-		
-}
-}
+/* @media screen and (orientation: portrait) {
+	html{
+		display: grid;
+		grid-template-columns: 12fr;
+	}
+} */
